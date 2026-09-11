@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/guicarvalho274/Bispay-Revora-Revenue-Payments">
+  <a href="https://github.com/guicarvalho274/bispay-revora-revenue-payments-public">
     <img src="/asset/bispay-revora.svg" alt="BisPay Revora Revenue Payments"  width="120"/>
   </a>
 </p>
@@ -12,12 +12,15 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-22.x-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js 22.x"/>
+  <img src="https://img.shields.io/badge/Express-5.x-000000?style=flat-square&logo=express&logoColor=white" alt="Express 5.x"/>
   <img src="https://img.shields.io/badge/JavaScript-ESM-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript ESM"/>
   <img src="https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=flat-square&logo=vue.js&logoColor=white" alt="Vue.js 3.x"/>
   <img src="https://img.shields.io/badge/Nuxt-4.x-00DC82?style=flat-square&logo=nuxt.js&logoColor=white" alt="Nuxt 4.x"/>
-  <img src="https://img.shields.io/badge/MySQL-Relational-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/Redis-Cache--DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
-  <img src="https://img.shields.io/badge/Docker-Containerized-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/BullMQ-6.x-DC382D?style=flat-square&logo=redis&logoColor=white" alt="BullMQ 6.x"/>
+  <img src="https://img.shields.io/badge/MySQL-8.x-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL 8.x"/>
+  <img src="https://img.shields.io/badge/Redis-7.x-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis 7.x"/>
+  <img src="https://img.shields.io/badge/Docker-24.x-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Zod-4.x-3E61ED?style=flat-square&logo=zod&logoColor=white" alt="Zod 4.x"/>
   <img src="https://img.shields.io/badge/Google-OAuth-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google OAuth"/>
 </p>
 
@@ -136,42 +139,57 @@ A aplicação é dividida principalmente entre:
 
 <p>
   <img src="https://img.shields.io/badge/Node.js-22.x-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Express-5.x-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express"/>
   <img src="https://img.shields.io/badge/JavaScript-ESM-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/BullMQ-6.x-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="BullMQ"/>
+  <img src="https://img.shields.io/badge/Zod-4.x-3E61ED?style=for-the-badge&logo=zod&logoColor=white" alt="Zod"/>
 </p>
 
 - Node.js 22.x
-- JavaScript / ECMAScript Modules
-- HTTP APIs
-- Service-oriented application structure
-- Workers & Queue processing
+- Express.js 5.x
+- ESM (import/export)
+- BullMQ 6.x (filas assíncronas)
+- JSON Web Token (JWT) + bcryptjs (autenticação)
+- Zod (validação de dados)
+- Nodemailer (envio de emails)
+- Sharp + Multer (upload e processamento de imagens)
+- Google Auth Library (OAuth)
 - Idempotent operations
 
 ### Frontend
 
 <p>
-  <img src="https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue.js"/>
   <img src="https://img.shields.io/badge/Nuxt-4.x-00DC82?style=for-the-badge&logo=nuxt.js&logoColor=white" alt="Nuxt"/>
+  <img src="https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue.js"/>
+  <img src="https://img.shields.io/badge/Pinia-4.x-FCCD41?style=for-the-badge&logo=pinia&logoColor=black" alt="Pinia"/>
+  <img src="https://img.shields.io/badge/Axios-1.x-5A29E4?style=for-the-badge&logo=axios&logoColor=white" alt="Axios"/>
+  <img src="https://img.shields.io/badge/Zod-4.x-3E61ED?style=for-the-badge&logo=zod&logoColor=white" alt="Zod"/>
 </p>
 
+- Nuxt 4.x (SSR)
 - Vue.js 3.x
-- Nuxt 4.x
 - Pinia (State Management)
 - Axios (HTTP Client)
+- Server-side BFF (proxy para API via Nuxt Server Routes + H3)
+- motion-v 2.4.0 (animações)
+- DOMPurify 3.4.14 (sanitização XSS)
+- vue-sonner 2.0.9 (toast notifications)
+- Zod 4.5.4 (validação client-side)
 - Component-driven architecture
-- Client-side state management
 
 ### Infrastructure
 
 <p>
-  <img src="https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Redis-Cache--DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
-  <img src="https://img.shields.io/badge/MySQL-Relational-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/Docker-24.x-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Redis-7.x-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/>
+  <img src="https://img.shields.io/badge/MySQL-8.x-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/pnpm-9.x-F69220?style=for-the-badge&logo=pnpm&logoColor=white" alt="pnpm"/>
 </p>
 
-- Docker (Containerized environments)
-- Redis (Cache & Queues)
-- MySQL (Relational Database)
-- Persistent storage
+- Docker + Docker Compose
+- pnpm (package manager)
+- Redis 7 (BullMQ + cache + dados temporários)
+- MySQL 8.4 (persistência relacional)
 - Environment-based configuration
 
 ### Authentication
@@ -343,7 +361,7 @@ graph TD
 
 ## 📨 Queues & Workers
 
-Operações que não precisam ser concluídas dentro do ciclo imediato da requisição podem ser processadas através de filas.
+Operações que não precisam ser concluídas dentro do ciclo imediato da requisição podem ser processadas através de filas usando **BullMQ**.
 
 ```mermaid
 graph TD
@@ -431,21 +449,6 @@ graph TD
 ## 🗄️ MySQL
 
 O MySQL é responsável pela persistência dos dados permanentes da aplicação.
-
-| Entidade | Descrição |
-|----------|-----------|
-| Users | Usuários do sistema |
-| Authentication Providers | Provedores de identidade |
-| Accounts | Contas de negócio |
-| Account Members | Membros das contas |
-| Customers | Clientes |
-| Quotes / Quote Items | Orçamentos |
-| Payments | Pagamentos |
-| Payment Integrations | Integrações de pagamento |
-| Payment Transactions | Transações |
-| Credentials | Credenciais |
-| Email Verification | Verificação de e-mail |
-| User Profiles | Perfis de usuário |
 
 A aplicação utiliza relacionamentos e constraints do banco para preservar a integridade dos dados. Identificadores internos utilizam UUIDs binários, enquanto chaves técnicas e índices são estruturados para favorecer operações eficientes.
 
@@ -550,25 +553,7 @@ Novos módulos serão adicionados conforme o domínio da plataforma evoluir.
 
 ## 🗺️ Roadmap
 
-```mermaid
-graph TD
-    A[Authentication] --> B[Accounts & Users]
-    B --> C[Customers]
-    C --> D[Quotes / Billing]
-    D --> E[Payments]
-    E --> F[Payment Providers]
-    F --> G[Recurring Revenue]
-    G --> H[Automation & Infrastructure]
-
-    style A fill:#00C853,color:#fff
-    style B fill:#339933,color:#fff
-    style C fill:#4FC08D,color:#fff
-    style D fill:#4479A1,color:#fff
-    style E fill:#DC382D,color:#fff
-    style F fill:#8a8a8a,color:#fff
-    style G fill:#F7DF1E,color:#333
-    style H fill:#2496ED,color:#fff
-```
+The platform is continuously evolving around payment infrastructure, revenue management, recurring billing and business operations.
 
 A arquitetura foi concebida para permitir que novos módulos sejam incorporados sem alterar o núcleo dos módulos existentes.
 
@@ -604,10 +589,13 @@ graph TD
 <p align="center">
   Built with<br/>
   <img src="https://img.shields.io/badge/Node.js-22.x-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=flat-square&logo=vue.js&logoColor=white" alt="Vue.js"/>
+  <img src="https://img.shields.io/badge/Express-5.x-000000?style=flat-square&logo=express&logoColor=white" alt="Express"/>
+  <img src="https://img.shields.io/badge/BullMQ-6.x-DC382D?style=flat-square&logo=redis&logoColor=white" alt="BullMQ"/>
   <img src="https://img.shields.io/badge/Nuxt-4.x-00DC82?style=flat-square&logo=nuxt.js&logoColor=white" alt="Nuxt"/>
+  <img src="https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=flat-square&logo=vue.js&logoColor=white" alt="Vue.js"/>
   <img src="https://img.shields.io/badge/MySQL-8.x-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/>
   <img src="https://img.shields.io/badge/Redis-7.x-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
   <img src="https://img.shields.io/badge/Docker-24.x-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Zod-4.x-3E61ED?style=flat-square&logo=zod&logoColor=white" alt="Zod"/>
   <img src="https://img.shields.io/badge/Google-OAuth-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google"/>
 </p>
