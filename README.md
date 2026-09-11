@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://github.com/your-org/bispay-revora">
-    <img src="https://img.shields.io/badge/BisPay-Revora-00C853?style=for-the-badge&logo=bispay&logoColor=white&labelColor=00C853" alt="BisPay Revora"/>
+  <a href="https://github.com/guicarvalho274/Bispay-Revora-Revenue-Payments">
+    <img src="/asset/bispay-revora.svg" alt="BisPay Revora Revenue Payments"  width="120"/>
   </a>
 </p>
 
